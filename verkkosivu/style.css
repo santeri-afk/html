@@ -1,6 +1,62 @@
+
+/* yleis */
 body {
     background-color: #6d6666; 
     font-family: Arial, sans-serif; 
-    margin: 20px;
+    margin: 0%;
 }
 
+/* header */
+.header {
+    overflow: hidden;
+    background-color: aqua;
+
+
+}
+
+.header a {
+    float: left;
+    color: black;
+    text-align: right;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 4px;
+    padding-top: 7%;
+    padding-right: 10%;
+}
+
+.header img {
+    max-width: 75%;
+    max-height: 75%;
+    margin-top: 0%;
+    margin: auto;
+}
+
+
+.header-right {
+    float: right;
+    width: 25%;
+
+}
+
+/* koti sivusto */
+.company_name {
+    font-size: 400%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.company_main img {
+    max-width: 75%;
+    max-height: 75%;
+    display: block;
+    margin: auto;
+}
+
+.company_main {
+    margin-bottom: 25px;
+}
+
+.company_text {
+    text-align: center;
+}
