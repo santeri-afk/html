@@ -1,5 +1,9 @@
 
 /* yleis */
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #6d6666; 
     font-family: Arial, sans-serif; 
@@ -10,7 +14,6 @@ body {
 .header {
     overflow: hidden;
     background-color: aqua;
-
 
 }
 
@@ -59,4 +62,47 @@ body {
 
 .company_text {
     text-align: center;
+}
+
+/* products page */
+
+.products_main {
+    width: 94%;
+    margin: 0 auto;
+}
+
+.product_main_image {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* prducts boxes */
+
+.product_kortit {
+    background: #695151;
+    min-height: 0%;
+    padding: 13px;
+}
+
+.productlaatikko {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    max-width: 1250px;
+    margin: auto;
+    
+}
+
+.product_kuvat {
+    width: 100%;
+    aspect-ratio: 2 / 2;
+    background: #303030;
+    color: #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 46px;
+    font-weight: 300;
 }
