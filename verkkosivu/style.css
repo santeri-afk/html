@@ -5,9 +5,10 @@
 }
 
 body {
-    background-color: #6d6666; 
+    background-color: #ffffff; 
     font-family: Arial, sans-serif; 
     margin: 0%;
+    
 }
 
 /* header */
@@ -62,6 +63,8 @@ body {
 
 .company_text {
     text-align: center;
+    width: 45%;
+    margin: auto;
 }
 
 /* products page */
@@ -107,6 +110,10 @@ body {
     font-weight: 300;
 }
 
+.alku_teksti {
+ padding-left: 5%;
+}
+
 /*Contacts page*/
 
 .Contacts {
@@ -115,10 +122,17 @@ body {
     padding-left: 5%;
 }
 
+.Contacts p {
+    margin: auto;
+}
+
 .map {
     float: right;
+    margin-top: 0%;
+    padding-right: 5%;
 }
 
 .s {
     padding-left: 5%;
+    width: fit-content;
 }
